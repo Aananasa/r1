@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Агентство ритуальных услуг: организация похорон, кремация, поддержка в трудный момент.">
+    <meta name="keywords" content="ритуальные услуги, похороны, кремация, Москва">
+    <title>Агентство Ритуальных Услуг</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Агентство Ритуальных Услуг</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle"><i class="fas fa-moon"></i></button>
+        </div>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2 class="animate-text">С заботой в трудный момент</h2>
+                <p class="animate-text delay-1">Мы предоставляем достойные ритуальные услуги с уважением и поддержкой. В сложное время мы рядом.</p>
+                <a href="#contacts" class="btn animate-text delay-2">Связаться с нами</a>
+            </div>
+        </section>
+        <section id="services" class="fade-in">
+            <div class="container">
+                <h2>Наши услуги</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class="fas fa-dove"></i>
+                        <h3>Организация похорон</h3>
+                        <p>Полная организация церемонии с уважением к традициям.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-fire"></i>
+                        <h3>Кремация</h3>
+                        <p>Услуги кремации с последующим захоронением или мемориалом.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-truck"></i>
+                        <h3>Транспортировка</h3>
+                        <p>Перевозка усопшего по России и за рубеж с полной поддержкой.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-file-alt"></i>
+                        <h3>Подготовка документов</h3>
+                        <p>Оформление всех необходимых бумаг быстро и конфиденциально.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-flower"></i>
+                        <h3>Флористика и декор</h3>
+                        <p>Персонализированные цветы, венки и декорации для церемонии.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-heartbeat"></i>
+                        <h3>Психологическая поддержка</h3>
+                        <p>Консультации для родственников в период траура с опытными специалистами.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-leaf"></i>
+                        <h3>Экологичные мемориалы</h3>
+                        <p>Превращение праха в биоразлагаемые урны или посадка мемориальных деревьев.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-globe"></i>
+                        <h3>Виртуальные церемонии</h3>
+                        <p>Онлайн-трансляции и цифровые мемориалы для удалённых близких.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="fade-in">
+            <div class="container">
+                <h2>О нас</h2>
+                <p>Мы — команда профессионалов с 10+ лет опыта. Наша миссия — помочь в трудные моменты с достоинством и эмпатией. 24/7 поддержка.</p>
+            </div>
+        </section>
+        <section id="contacts" class="fade-in">
+            <div class="container">
+                <h2>Свяжитесь с нами</h2>
+                <p><i class="fas fa-map-marker-alt"></i> Адрес: ул. Примерная, 123, Москва</p>
+                <p><i class="fas fa-phone"></i> Телефон: +7 (495) 123-45-67</p>
+                <p><i class="fas fa-envelope"></i> Email: info@ritual.ru</p>
+                <form id="contact-form" action="mailto:info@ritual.ru" method="post" enctype="text/plain">
+                    <input type="text" placeholder="Ваше имя" required>
+                    <input type="email" placeholder="Ваш email" required>
+                    <input type="tel" placeholder="Ваш телефон" required>
+                    <textarea placeholder="Сообщение" required></textarea>
+                    <label for="consent">
+                        <input type="checkbox" id="consent" required>
+                        Соглашаюсь на <a href="#privacy" target="_blank">обработку персональных данных</a>
+                    </label>
+                    <button type="submit">Отправить</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            &copy; 2025 Агентство Ритуальных Услуг. Все права защищены. | <a href="#privacy">Политика конфиденциальности</a>
+            <section id="privacy" class="privacy-policy">
+                <h3>Политика конфиденциальности</h3>
+                <p>Мы уважаем вашу конфиденциальность. Персональные данные (имя, email, телефон) собираются только для обработки запросов и не передаются третьим лицам без согласия. Данные хранятся в РФ в соответствии с ФЗ-152. Вы можете запросить удаление данных по email: info@ritual.ru. Мы используем localStorage для тем сайта (не персонализированные данные).</p>
+            </section>
+        </div>
+    </footer>
+
+    <!-- Cookie баннер -->
+    <div id="cookie-banner" class="cookie-banner">
+        <p>Мы используем cookies и localStorage для улучшения работы сайта. Продолжая, вы соглашаетесь с <a href="#privacy">политикой конфиденциальности</a>.</p>
+        <button id="accept-cookies">Согласен</button>
+        <button id="configure-cookies">Настроить</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
